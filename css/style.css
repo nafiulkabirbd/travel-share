@@ -513,3 +513,41 @@ select {
 }
 
 /* newsletter related style end */
+
+/* footer related style start */
+
+footer {
+    width: 100%;
+    text-align: center;
+    height: 340px;
+    background: rgba(19, 19, 24, 0.05);
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 60px;
+}
+
+.footer-logo h2 {
+    font-size: 32px;
+    font-weight: 800;
+    margin-left: 10px;
+}
+
+.footer-logo p {
+    color: #5A5A5D;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.footer-copyright {
+    color: #131318;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+/* footer related style end */
