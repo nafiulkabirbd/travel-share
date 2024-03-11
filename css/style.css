@@ -433,3 +433,83 @@ select {
 /* services related style end */
 
 /* why choose us related style end */
+
+/* newsletter related style start */
+
+.newsletter-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    margin: 100px 0px;
+}
+
+.newsletter-container .newsletter-texts {
+    padding: 30px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+}
+
+.newsletter-container .newsletter-texts h1 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.newsletter-container .newsletter-texts p {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.newsletter-container .newsletter-texts .form {
+    margin-top: 40px;
+    display: grid;
+    gap: 10px;
+}
+
+.newsletter-container .newsletter-texts .form input {
+    padding: 16px 20px;
+    border: none;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    margin-bottom: 12px;
+}
+
+.subscribe-btn {
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
+    padding: 14px;
+}
+
+.newsletter-container .img {
+    width: 55%;
+    position: relative;
+    top: 0;
+    right: 0;
+}
+
+.newsletter-container .image {
+    width: 100%;
+}
+
+.discount-box {
+    position: absolute;
+    right: 8px;
+    bottom: 50px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px 20px;
+    border-radius: 16px;
+    background: #FF5400;
+    color: #FFF;
+    transform: rotate(-19.628deg);
+}
+
+/* newsletter related style end */
