@@ -551,3 +551,109 @@ footer {
 }
 
 /* footer related style end */
+
+/* mobile responsive start */
+
+@media screen and (max-width: 600px) {
+
+    /* navbar related style start */
+
+    .logo {
+        padding: 0 5vw;
+    }
+
+    .logo h2 {
+        margin-left: 1vw;
+        font-size: 5.7vw;
+    }
+
+    .menu-items a {
+        color: white;
+        display: none;
+    }
+
+    .menu-items i {
+        display: block;
+        font-size: 5.2vw;
+        padding: 0 6vw;
+    }
+
+    /* navbar related style start */
+
+    /* banner related style start */
+
+    .banner-container h1 {
+        font-size: 2rem;
+        font-weight: 800;
+    }
+
+    .banner-container p {
+        font-size: 1rem;
+        line-height: 1rem;
+        margin-bottom: .5rem;
+    }
+
+    form {
+        flex-direction: column;
+        margin-top: 1rem;
+    }
+
+    form>input,
+    select {
+        width: 15rem;
+    }
+
+    .btn {
+        width: 15rem;
+    }
+
+    /* banner related style end */
+
+    /* destinations related style start */
+
+    .destination-text>h1 {
+        font-size: 1.2rem;
+        font-style: normal;
+        font-weight: 800;
+    }
+
+    .destination-text>p {
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+    }
+
+    .destination-gallery {
+        width: 100%;
+    }
+
+    .gallery {
+        grid-auto-rows: 16rem;
+        padding-inline: 1rem;
+    }
+
+    .box {
+        grid-column: span 4;
+    }
+
+    /* destinations related style end */
+
+    /* why choose us related style start */
+
+    /* services related style start */
+
+    .services-container {
+        flex-direction: column;
+    }
+
+    .hotel-container {
+        padding: 0rem;
+    }
+
+    /* services related style end */
+
+    /* why choose us related style end */
+}
+
+/* mobile responsive end */
