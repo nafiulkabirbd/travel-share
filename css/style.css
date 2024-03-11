@@ -24,6 +24,22 @@ body {
 
 /* global style end */
 
+/* share related style start */
+
+.btn {
+    width: 9rem;
+    font-size: 1rem;
+    font-family: "Mulish", sans-serif;
+    padding: .5rem;
+    background-color: #FF5400;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+/* share related style end */
+
 /* navbar related style start */
 
 .navbar {
@@ -82,3 +98,68 @@ body {
 }
 
 /* navbar related style end */
+
+/* banner related style start */
+
+.banner-container {
+    max-width: 1450px;
+    width: 93%;
+    height: 60vh;
+    margin: 1.5rem auto auto;
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 0.31), rgba(0, 0, 0, 0.5)), url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-container h1 {
+    color: #FFF;
+    font-family: "Mulish", sans-serif;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.banner-container p {
+    color: #FFF;
+    font-family: "Mulish", sans-serif;
+    text-align: center;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1rem;
+}
+
+form {
+    margin-top: .5vh;
+    display: flex;
+    padding: 1.2rem;
+    align-items: center;
+    gap: 1.5rem;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.30);
+    color: rgba(19, 19, 24, 0.50);
+    font-family: "Mulish", sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+form>input,
+select {
+    width: 9rem;
+    font-size: 1rem;
+    padding: .5rem;
+    color: rgba(19, 19, 24, 0.50);
+    border-radius: 8px;
+    border: none;
+}
+
+/* banner related style end */
