@@ -299,3 +299,137 @@ select {
 }
 
 /* destinations related style end */
+
+/* why choose us related style start */
+
+.why-choose-us-container {
+    padding-top: 6.25rem;
+    width: 100%;
+    height: auto;
+    max-width: 1450px;
+    margin: auto;
+}
+
+.why-choose-us-text h1 {
+    color: #131318;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.why-choose-us-text p {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.625rem;
+}
+
+/* services related style start */
+
+.services-container {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* hotel related style start */
+
+.hotel-container {
+    width: 35.813rem;
+    height: 17.75rem;
+    border-radius: 1rem;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 3.5rem 0px 0px 2rem;
+}
+
+.hotel-container img {
+    width: 4rem;
+    height: 4rem;
+}
+
+.hotel-container h1 {
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.hotel-container p {
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.625rem;
+}
+
+/* hotel related style end */
+
+/* map related style start */
+
+.map-container {
+    width: 35.813rem;
+    height: 17.75rem;
+    border-radius: 1rem;
+    border-radius: 1rem;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding: 3.5rem 0px 0px 2rem;
+}
+
+.map-container img {
+    width: 4rem;
+    height: 4rem;
+}
+
+.map-container h1 {
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.map-container p {
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.625rem;
+}
+
+/* map related style end */
+
+/* price related style start */
+
+.price-container {
+    width: 35.813rem;
+    height: 17.75rem;
+    border-radius: 1rem;
+    border-radius: 1rem;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    padding: 3.5rem 0px 0px 2rem;
+    margin: 1.5rem auto;
+}
+
+.price-container img {
+    width: 4rem;
+    height: 4rem;
+}
+
+.price-container h1 {
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.price-container p {
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.625rem;
+}
+
+/* price related style end */
+
+/* services related style end */
+
+/* why choose us related style end */
